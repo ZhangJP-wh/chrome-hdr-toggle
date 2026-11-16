@@ -7,7 +7,7 @@ Chrome 扩展：点击工具栏图标，全局切换「SDR 优先」和「原始
 Chrome extension: click the toolbar icon to toggle SDR preference globally across HTTP/HTTPS pages. Reload playing pages to renegotiate streams. Compatibility depends on the player.
 
 **仓库 / Repo:** https://github.com/ZhangJP-wh/chrome-hdr-toggle  
-**版本 / Version:** 1.1.0
+**版本 / Version:** 1.1.1
 
 ## 给电脑小白：一分钟安装 / 1-minute install
 
@@ -69,6 +69,10 @@ No servers, telemetry, cookie access or uploads. Local storage contains only the
 Includes simulated capability and toggle tests. Real-site, DRM and HDR-display compatibility is not comprehensively verified.
 
 ## 变更 / Changelog
+
+### 1.1.1
+
+替换为透明背景的玻璃 HDR 图标，保留 PNG 透明通道。 / Transparent glass HDR icons with preserved alpha.
 
 ### 1.1.0
 
