@@ -58,6 +58,8 @@ Replace files, reload the extension, review site access and refresh video pages.
 
 ## 隐私 / Privacy
 
+[完整隐私政策 / Full privacy policy](PRIVACY.md)
+
 没有服务器、遥测、Cookie 读取或内容上传。只用本地存储保存开关。全站网站访问权限用于注入媒体能力检测脚本；临时枚举标签页以同步所有页面，不保存或发送网址。不含外部脚本或依赖。
 
 No servers, telemetry, cookie access or uploads. Local storage contains only the toggle. Site access enables media capability interception; tab enumeration synchronizes open pages without saving or transmitting URLs.
@@ -87,3 +89,4 @@ Liquid-glass HDR icons, global HTTP/HTTPS scope, one-click persistent toggle and
 ## License
 
 MIT。图标由项目所有者提供。 / MIT. Icon supplied by the project owner.
+
