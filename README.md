@@ -1,4 +1,4 @@
-<p align="center"><img src="icons/icon128.png" width="128" alt="HDR 液态玻璃图标"></p>
+<p align="center"><img src="icons/icon128.png" width="128" alt="HDR 开关图标：蓝底、白色 HDR 与灰色禁止环"></p>
 
 # HDR 开关 / HDR Toggle
 
@@ -7,7 +7,7 @@ Chrome 扩展：点击工具栏图标，全局切换「SDR 优先」和「原始
 Chrome extension: click the toolbar icon to toggle SDR preference globally across HTTP/HTTPS pages. Reload playing pages to renegotiate streams. Compatibility depends on the player.
 
 **仓库 / Repo:** https://github.com/ZhangJP-wh/chrome-hdr-toggle  
-**版本 / Version:** 1.1.2
+**版本 / Version:** 1.1.3
 
 ## 给电脑小白：一分钟安装 / 1-minute install
 
@@ -75,6 +75,12 @@ No servers, telemetry, cookie access or uploads. Local storage contains only the
 Includes simulated capability and toggle tests. Real-site, DRM and HDR-display compatibility is not comprehensively verified.
 
 ## 变更 / Changelog
+
+### 1.1.3
+
+替换工具栏与商店图标为蓝底、白色 HDR 字样、灰色禁止环。源图为 `icons/icon-source.png`（1024×1024）。行为与 1.1.2 相同。
+
+Replaced the toolbar and listing icons with the blue HDR prohibition mark. Source artwork is `icons/icon-source.png` (1024×1024). Behavior is unchanged from 1.1.2.
 
 ### 1.1.2
 
