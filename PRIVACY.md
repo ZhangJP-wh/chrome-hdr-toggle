@@ -18,9 +18,9 @@ Only an enabled toggle is stored in chrome.storage.local to remember SDR prefere
 
 ## 网站访问与标签页 / Site access and tabs
 
-HTTP 和 HTTPS 网站权限用于在网页及 iframe 中修改媒体能力检测结果，引导兼容播放器选择 SDR。点击开关时会临时枚举标签页并查看网址，以定位可同步设置的普通网页；不记录或上传这些网址，不读取网页正文或视频画面。脚本只处理媒体配置和开关事件。
+HTTP 和 HTTPS 网站权限用于在网页及 iframe 中修改媒体能力检测结果，并在 SDR 模式下把动态范围查询和屏幕色深报告为 SDR，引导兼容播放器选择 SDR。点击开关时会临时枚举标签页并查看网址，以定位可同步设置的普通网页；不记录或上传这些网址，不读取网页正文或视频画面。脚本只处理媒体配置、显示动态范围信号和开关事件。
 
-HTTP and HTTPS host access allows media capability interception in pages and frames. Clicking the toggle temporarily enumerates tabs and checks their URLs to synchronize eligible pages. URLs are not logged, retained or uploaded. The extension does not read page text or video frames. Injected code processes media configurations and toggle events only.
+HTTP and HTTPS host access allows media capability interception in pages and frames, and, in SDR mode, reporting dynamic-range queries and screen color depth as SDR. Clicking the toggle temporarily enumerates tabs and checks their URLs to synchronize eligible pages. URLs are not logged, retained or uploaded. The extension does not read page text or video frames. Injected code processes media configurations, display dynamic-range signals and toggle events only.
 
 ## 用户选择 / Your choices
 
