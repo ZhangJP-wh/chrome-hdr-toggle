@@ -1,4 +1,4 @@
-<p align="center"><img src="icons/icon128.png" width="128" alt="HDR 开关图标：蓝底、白色 HDR 与灰色禁止环"></p>
+<p align="center"><img src="icons/icon128.png" width="128" alt="HDR 开关图标：正方形蓝底上放大的白色 HDR 与灰色禁止环"></p>
 
 # HDR 开关 / HDR Toggle
 
@@ -7,7 +7,7 @@ Chrome 扩展：点击工具栏图标，全局切换「SDR 优先」和「原始
 Chrome extension: click the toolbar icon to toggle SDR preference globally across HTTP/HTTPS pages. Reload playing pages to renegotiate streams. Compatibility depends on the player.
 
 **仓库 / Repo:** https://github.com/ZhangJP-wh/chrome-hdr-toggle  
-**版本 / Version:** 1.1.3
+**版本 / Version:** 1.1.4
 
 ## 给电脑小白：一分钟安装 / 1-minute install
 
@@ -75,6 +75,12 @@ No servers, telemetry, cookie access or uploads. Local storage contains only the
 Includes simulated capability and toggle tests. Real-site, DRM and HDR-display compatibility is not comprehensively verified.
 
 ## 变更 / Changelog
+
+### 1.1.4
+
+收紧同一枚蓝底 HDR 禁止标志的裁切。正方形画布不变，尽量去掉标志周围的蓝边，放大白色 HDR 字母和灰色禁止环。字母比圆环更宽，所以上下仍留有蓝边，字母不会被裁掉。工具栏尺寸与 `icons/icon-source.png`（1024×1024）一并替换，图标路径不变。行为与 1.1.3 相同。
+
+Tightened the crop of the same blue HDR prohibition mark. The square canvas stays; surrounding blue is reduced so the white HDR letters and gray prohibition ring are larger. Blue remains above and below the ring because the letters are wider than the ring is tall, which keeps the letters unclipped. Toolbar sizes and `icons/icon-source.png` (1024×1024) are replaced together. Icon paths are unchanged. Behavior is unchanged from 1.1.3.
 
 ### 1.1.3
 
